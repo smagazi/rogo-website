@@ -10,13 +10,12 @@ const navItems = {
   '/results': {
     name: 'results + challenges',
   },
-  '/team': { //link to our clean GitHub!
+  '/team': { 
     name: 'team',
   },
-  '/s': { //link to our clean GitHub!
-    name: 'codebase',
+  '/resources': { //link to our clean presentation and github!
+    name: 'resources',
   },
-
 }
 
 export function Navbar() {
