@@ -4,12 +4,16 @@ const navItems = {
   '/': {
     name: 'home',
   },
-  '/blog': {
-    name: 'blog',
+  '/implementation': {
+    name: 'implementation',
   },
-  'https://vercel.com/templates/next.js/portfolio-starter-kit': {
-    name: 'deploy',
+  '/results': {
+    name: 'results',
   },
+  '/s': { //link to our clean GitHub!
+    name: 'codebase',
+  },
+
 }
 
 export function Navbar() {
