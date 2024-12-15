@@ -10,6 +10,9 @@ const navItems = {
   '/results': {
     name: 'results + challenges',
   },
+  '/team': { //link to our clean GitHub!
+    name: 'team',
+  },
   '/s': { //link to our clean GitHub!
     name: 'codebase',
   },
