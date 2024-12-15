@@ -66,21 +66,98 @@ export default function Page() {
               className="mx-auto rounded-lg"
             />
           </div>
-
-          <h2 className="text-2xl font-semibold mb-4">Why This Matters</h2>
-          <p className="text-lg mb-8">
-            [Explain why this project is interesting and what problems you're solving]
-          </p>
-
           <h2 className="text-2xl font-semibold mb-4">Real-World Applications</h2>
           <p className="text-lg mb-8">
             The applications for this system are not limited to Mars, it is useful on Earth. In dangerous environments (such as deep underground construction or mining) where it is unsafe for humans to operate equipment, our robotic system can be used to identify objects to construct or excavate. The key here is most robotic systems require a baseline understanding of how robots work, but not everybody has a technical background. As our system is a full-stack solution, needing only a natural language input, we enable more end users to use our product.
           </p>
+          <p className="text-lg mb-8">
+            Moreover, consumer robotics is a growing market, and the robotic system can act as a housekeeper. With improvements on the natural language processing side, and rigourous testing on the controls side from a safety standpoint, the robotic arm system can help pick up objects (like trash) or sort objects on tables or hard to reach spcaes.
+          </p>
+        </div>
+      </section>
+
+      {/* System Architecture Section */}
+      <section className="max-w-3xl mx-auto mb-16">
+        <h2 className="text-2xl font-semibold mb-4">System Architecture</h2>
+        
+        {/* Main System Diagram */}
+        <div className="mb-8">
+          <Image
+            src="/images/system-architecture.png"
+            alt="System architecture diagram showing the flow from Block to Block Metadata to ChatGPT to GPT Placement"
+            width={1200}
+            height={400}
+            className="mx-auto rounded-lg"
+          />
+          <p className="text-center text-gray-400 mt-2">
+            Overview of the Mars Habitat Builder system architecture
+          </p>
+        </div>
+
+        {/* Grid of Detail Screenshots */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Screenshot 1 */}
+          <div className="space-y-2">
+            <Image
+              src="/images/block-input.png"
+              alt="Block input stage"
+              width={500}
+              height={300}
+              className="rounded-lg"
+            />
+            <p className="text-center text-gray-400">
+              Initial block processing and metadata extraction
+            </p>
+          </div>
+
+          {/* Screenshot 2 */}
+          <div className="space-y-2">
+            <Image
+              src="/images/gpt-processing.png"
+              alt="GPT processing stage"
+              width={500}
+              height={300}
+              className="rounded-lg"
+            />
+            <p className="text-center text-gray-400">
+              ChatGPT processing and structure planning
+            </p>
+          </div>
+
+          {/* Screenshot 3 */}
+          <div className="space-y-2">
+            <Image
+              src="/images/placement-output.png"
+              alt="Placement output stage"
+              width={500}
+              height={300}
+              className="rounded-lg"
+            />
+            <p className="text-center text-gray-400">
+              GPT placement and coordination system
+            </p>
+          </div>
+
+          {/* Screenshot 4 */}
+          <div className="space-y-2">
+            <Image
+              src="/images/final-rendering.png"
+              alt="Final rendering stage"
+              width={500}
+              height={300}
+              className="rounded-lg"
+            />
+            <p className="text-center text-gray-400">
+              Custom rendering and visualization output
+            </p>
+          </div>
         </div>
       </section>
 
       {/* You'll want to create separate components or sections for: */}
       {/* - Design */}
+
+      
       {/* - Implementation */}
       {/* - Results */}
       {/* - Conclusion */}
