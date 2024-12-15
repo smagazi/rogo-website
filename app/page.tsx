@@ -154,6 +154,95 @@ export default function Page() {
         </div>
       </section>
 
+      {/* Design Section */}
+      <section className="max-w-3xl mx-auto mb-16">
+        <h2 className="text-2xl font-semibold mb-4">Design</h2>
+        
+        {/* Design Criteria */}
+        <div className="mb-8">
+          <h3 className="text-xl font-medium mb-3">Success Criteria & Testing Approach</h3>
+          <p className="text-lg mb-4">
+            Our project success is measured across three parallel testing areas:
+          </p>
+          <ul className="list-disc list-inside text-lg mb-6 space-y-2">
+            <li>Software Processing: Verify accurate conversion of CAD models into robot instructions</li>
+            <li>Vision System: Demonstrate block recognition and pickup without ARUCO codes</li>
+            <li>Autonomous Construction: Validate independent structure building with correct block placement</li>
+          </ul>
+
+          <h3 className="text-xl font-medium mb-3 mt-6">Success Levels</h3>
+          <ul className="list-disc list-inside text-lg mb-6 space-y-2">
+            <li>Base Success: Fully functional system with square blocks and single-level structures</li>
+            <li>Advanced Success: Extended functionality supporting multi-level structural depth</li>
+          </ul>
+
+          <h3 className="text-xl font-medium mb-3 mt-6">Reach Goals</h3>
+          <ul className="list-disc list-inside text-lg mb-6 space-y-2">
+            <li>Lego block compatibility for complex structures with hanging edges</li>
+            <li>Support for non-square block geometries</li>
+            <li>Alternative input methods (e.g., hand-drawn sketches)</li>
+            <li>Handling of smaller-scale blocks</li>
+            <li>Multi-rotational block placement capabilities</li>
+            <li>Support for increased block weights</li>
+            <li>Dynamic block selection from non-fixed layouts</li>
+          </ul>
+        </div>
+
+        {/* Design Choices */}
+        <div className="mb-8">
+          <h3 className="text-xl font-medium mb-3">Design Approach</h3>
+          <p className="text-lg mb-4">
+            We chose a modular system architecture that separates concerns between vision processing, 
+            LLM integration, and robotic control. This design allows for independent testing and 
+            optimization of each component while maintaining system cohesion.
+          </p>
+        </div>
+
+        {/* Design Trade-offs */}
+        <div className="mb-8">
+          <h3 className="text-xl font-medium mb-3">Design Trade-offs</h3>
+          <p className="text-lg mb-4">
+            Key trade-offs in our design process included:
+          </p>
+          <ul className="list-disc list-inside text-lg mb-6 space-y-2">
+            <li>Choosing computer vision over AR tags for more realistic deployment scenarios, 
+                despite increased complexity</li>
+            <li>Implementing PID control for reliability over more complex control systems</li>
+            <li>Using standardized block shapes to simplify manipulation while limiting structural variety</li>
+          </ul>
+        </div>
+
+        {/* Real-world Impact */}
+        <div className="mb-8">
+          <h3 className="text-xl font-medium mb-3">Engineering Application Impact</h3>
+          <p className="text-lg mb-4">
+            Our design choices significantly impact the system's real-world applicability:
+          </p>
+          <ul className="list-disc list-inside text-lg mb-6 space-y-2">
+            <li>Robustness: Vision-based detection allows operation in varying lighting conditions</li>
+            <li>Durability: Modular block design enables easy component replacement and maintenance</li>
+            <li>Efficiency: Optimized movement patterns reduce construction time and energy usage</li>
+            <li>Adaptability: LLM integration allows for flexible structure specifications</li>
+          </ul>
+        </div>
+
+        {/* Optional: Add Design Diagrams */}
+
+  
+        <div className="mb-8">
+          <Image
+            src="/images/design-diagram.png"
+            alt="Detailed design diagram showing system components and interactions"
+            width={800}
+            height={400}
+            className="mx-auto rounded-lg"
+          />
+          <p className="text-center text-gray-400 mt-2">
+            Detailed system design and component interaction diagram
+          </p>
+        </div>
+      </section>
+
       {/* You'll want to create separate components or sections for: */}
       {/* - Design */}
 
