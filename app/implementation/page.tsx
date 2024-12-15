@@ -25,7 +25,7 @@ export default function Page() {
         Start Here
       </p>
 
-      <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Transforming Coordinates From: GPT --> Camera --> Base Frame</h1>
+      <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Transforming Coordinates From: GPT to Camera to Base Frame</h1>
       <p className='ml-8 mb-8'>
         Start Here
       </p>
@@ -49,7 +49,7 @@ export default function Page() {
 
 
 
-      
+
 
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">this page has majority/all of technial stuff. </h1>
 
