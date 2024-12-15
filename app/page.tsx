@@ -8,7 +8,7 @@ export default function Page() {
       </h1>
       
       <p className="text-xl text-center text-white-500">
-        An LLM Powered 
+        An LLM Powered Contruction Robotic-Arm
       </p>
       <div className="text-center">
         {/* <a href="https://www.linkedin.com/in/your-profile" className="text-blue-500 hover:underline">Aarav Goel</a>,

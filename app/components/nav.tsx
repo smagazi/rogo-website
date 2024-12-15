@@ -8,7 +8,7 @@ const navItems = {
     name: 'implementation',
   },
   '/results': {
-    name: 'results',
+    name: 'results + challenges',
   },
   '/s': { //link to our clean GitHub!
     name: 'codebase',
