@@ -27,7 +27,7 @@ export default function Page() {
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">ChatGPT</h1>
       <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Block Position Output</h1>
       <p className='ml-8 mb-8'>
-        Start Here
+        After the user inputs their structure instructions (i.e. "build a tower", "design the Taj Mahal"), ChatGPT 
       </p>
 
 
@@ -43,7 +43,20 @@ export default function Page() {
       
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Computer Vision</h1>
       
-      
+      <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Detecting Blocks</h1>
+      <p className='ml-8 mb-8'>
+        Start Here
+      </p>
+
+      <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Distinguishing Blocks From Baseplate</h1>
+      <p className='ml-8 mb-8'>
+        Start Here
+      </p>
+
+      <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Detecting Blocks</h1>
+      <p className='ml-8 mb-8'>
+        Start Here
+      </p>
 
 
 

@@ -28,7 +28,7 @@ export default function Footer() {
             href="https://github.com/vercel/next.js"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
+            <p className="text-xl ml-2 h-7">github</p>
           </a>
         </li>
 

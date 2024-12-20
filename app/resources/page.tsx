@@ -9,7 +9,9 @@ export default function Page() {
   return (
     <section>
 
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">add presentation and repo </h1>
+      <a href="YOUR_LINK_HERE" className="font-semibold text-2xl mb-4 tracking-tighter">
+        Presentation
+      </a>
 
       {/* Embed Google Slides Presentation */}
 
