@@ -62,7 +62,7 @@ export default function Page() {
           {/* Add Goals Diagram */}
           <div className="mb-8">
             <Image
-              src="/images/block-diagram.png" // Adjust this path to where you store your image
+              src="/images/blocks_habitat.jpg" // Adjust this path to where you store your image
               alt="Project goals diagram showing three steps: 1. Does software process CAD model to instructions? 2. Robot capable of pick and place without AR tags? 3. Robot independently builds structure?"
               width={800} // Adjust based on your needs
               height={250} // Adjust based on your needs
@@ -86,7 +86,7 @@ export default function Page() {
         {/* Main System Diagram */}
         <div className="mb-8">
           <Image
-            src="/images/system-architecture.png"
+            src="/images/Workflow.png"
             alt="System architecture diagram showing the flow from Block to Block Metadata to ChatGPT to GPT Placement"
             width={1200}
             height={400}
