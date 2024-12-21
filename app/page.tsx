@@ -116,7 +116,7 @@ export default function Page() {
           {/* Screenshot 2 */}
           <div className="space-y-2">
             <Image
-              src="/images/gpt-processing.png"
+              src="/images/insert.png"
               alt="GPT processing stage"
               width={500}
               height={300}
@@ -130,7 +130,7 @@ export default function Page() {
           {/* Screenshot 3 */}
           <div className="space-y-2">
             <Image
-              src="/images/placement-output.png"
+              src="/images/2x1-output-dots.png"
               alt="Placement output stage"
               width={500}
               height={300}
@@ -144,7 +144,7 @@ export default function Page() {
           {/* Screenshot 4 */}
           <div className="space-y-2">
             <Image
-              src="/images/final-rendering.png"
+              src="/images/2x1-digital.png"
               alt="Final rendering stage"
               width={500}
               height={300}

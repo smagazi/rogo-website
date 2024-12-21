@@ -17,9 +17,9 @@ export default function Page() {
         We also tapered the prongs so the blocks will catch and interlock even if there is some small positional error.
       </p>
 
-      <img src="/images/block-diagram.png" alt="Block Diagram" className="mx-auto rounded-lg mb-2" />
-      <img src="/images/block-cad.png" alt="Block Diagram" className="mx-auto rounded-lg mb-2" />
-      <img src="/images/base-cad.png" alt="Block Diagram" className="mx-auto rounded-lg mb-2" />
+      <img src="/images/block-diagram.png" alt="Block Diagram" className="mx-auto rounded-lg mb-2" width="500" />
+      <img src="/images/block-cad.png" alt="Block Diagram" className="mx-auto rounded-lg mb-2" width="500" />
+      <img src="/images/base-cad.png" alt="Block Diagram" className="mx-auto rounded-lg mb-2" width="500" />
 
       
 
@@ -41,13 +41,13 @@ export default function Page() {
         Below is an example of the JSON ChatGPT outputs:
       </p>
 
-      <img src="/images/ex_gpt_output.png" alt="Block Diagram" className="rounded-full mb-8"/>
+      <img src="/images/ex_gpt_output.png" alt="Block Diagram" className="rounded-lg mb-8"/>
 
       <p className='ml-8 mb-8'>
       Furthermore, we use a script to render ChatGPT's output JSON into an image:
       </p>
 
-      <img src="/images/2x1-digital.png" alt="2x1 Digital" className="rounded-full mb-8"/>
+      <img src="/images/2x1-digital.png" alt="2x1 Digital" className="rounded-lg mb-8"/>
 
 
 
@@ -65,26 +65,26 @@ export default function Page() {
         Using Canny edge detection, we were able to distinguish objects from background, even with the grayscale image that the robot wrist hand camera gave us:
       </p>
 
-      <img src="/images/cv_running.png" alt="Block Diagram" className="mx-auto rounded-lg" />
+      <img src="/images/cv_running.png" alt="Block Diagram" className="mx-auto rounded-lg mb-8" />
 
       <p className='ml-8 mb-8'>
         We then used said block center coordinates, and transformed from u,v to real world x,y,z using camera intrinsic properties
       </p>
 
-      <img src="/images/cv_output.png" alt="Block Diagram" className="mx-auto rounded-lg" />
+      <img src="/images/cv_output.png" alt="Block Diagram" className="mx-auto rounded-lg mb-8" />
 
       <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Distinguishing Blocks From Baseplate</h1>
       <p className='ml-8 mb-8'>
         We distinguished the base plate from the blocks using a surface area calculator, by taking all four edge corners in the real world (transformed) and figuring out the quadrilateral area and setting a certain threshold to determine baseplate vs. blocks vs. noise
       </p>
 
-      <img src="/images/cv_base_plate.png" alt="Block Diagram" className="mx-auto rounded-lg" />
+      <img src="/images/cv_base_plate.png" alt="Block Diagram" className="mx-auto rounded-lg mb-8" />
 
       <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Generating placement instructions</h1>
       <p className='ml-8 mb-8'>
         Given real world projected locations of baseplate + various building blocks, we were able to generate placing instructions for which blocks went where
       </p>
-      <img src="/images/cv_place_coords.png" alt="Block Diagram" className="mx-auto rounded-lg" />
+      <img src="/images/cv_place_coords.png" alt="Block Diagram" className="mx-auto rounded-lg mb-8" />
 
 
 
