@@ -11,7 +11,7 @@ export default function Page() {
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Results</h1>
       <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Final Outcomes</h1>
       <p className='ml-8 mb-8'>
-        
+        Our system is able to build a 2x1 pyramid structure, with only tiny <span className='text-lilac'>(millimeters)</span> manual adjustments needing to be made in order for the blocks to placed correctly. 
       </p>
 
 

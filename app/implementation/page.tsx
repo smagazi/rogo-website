@@ -26,16 +26,29 @@ export default function Page() {
       
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">ChatGPT</h1>
       <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Block Position Output</h1>
-      <p className='ml-8 mb-8'>
-        After the user inputs their structure instructions (i.e. "build a tower", "design the Taj Mahal"), ChatGPT 
+      <p className='ml-8 mb-4'>
+        After the user inputs their structure instructions (i.e. "build a tower", "design the Taj Mahal"), ChatGPT takes the constraints into consideration <span className='text-lilac'>(block dimensions, prongs don't add to structure height since they insert into the block above)</span> and outputs coordinates based on those constraints and the user input. 
+      </p> 
+
+      <p className='ml-8 mb-4'>
+      ChatGPT also outputs information on what order to place the blocks <span className='text-lilac'>(i.e. in a pyramid structure, you must place the blocks with lower Z-values first)</span>.
       </p>
 
-
-      <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Transforming Coordinates From: GPT to Camera to Base Frame</h1>
-      <p className='ml-8 mb-8'>
-        Simple prompting, to get from user inquiry to output structural coords, example output:
+      <p className='ml-8 mb-4'>
+        Below is an example of the JSON ChatGPT outputs:
       </p>
-      <img src="/images/ex_gpt_output.png" alt="Block Diagram" className="rounded-full mb-8" />
+
+      <img src="/images/ex_gpt_output.png" alt="Block Diagram" className="rounded-full mb-8"/>
+
+      <p className='ml-8 mb-8'>
+      Furthermore, we use a script to render ChatGPT's output JSON into an image:
+      </p>
+
+      <img src="/images/2x1-digital.png" alt="2x1 Digital" className="rounded-full mb-8"/>
+
+
+
+
       
 
 
@@ -46,7 +59,7 @@ export default function Page() {
       
       <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Detecting Blocks</h1>
       <p className='ml-8 mb-8'>
-        Using canny edge detection, we were able to distinguish objects from background, even with the grayscale image that the robot wrist hand camera gave us
+        Using Canny edge detection, we were able to distinguish objects from background, even with the grayscale image that the robot wrist hand camera gave us:
       </p>
 
       <img src="/images/cv_running.png" alt="Block Diagram" className="rounded-full mb-8" />
