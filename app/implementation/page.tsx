@@ -76,7 +76,7 @@ export default function Page() {
       
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">PID/Controls</h1>
       <p className='ml-8 mb-8'>
-        We used PID to move to said predicted real-world locations from CV
+        We used PID to move to said predicted real-world locations from CV. We used K/gain values that are known to work with the Sawyer arm and allow it to move smoothly and correct its trajectory.
       </p>
 
       <img src="/images/planning_pid_control.png" alt="Block Diagram" className="rounded-full mb-8" />

@@ -148,3 +148,39 @@ table {
 .title {
   text-wrap: balance;
 }
+
+.text-lilac {
+  color: #a5a5f3; /* Example lilac color */
+}
+
+/* global.css */
+
+/* No rounding */
+.rounded-none {
+  border-radius: 0;
+}
+
+/* Small rounding */
+.rounded-sm {
+  border-radius: 4px; /* Slightly rounded corners */
+}
+
+/* Medium rounding */
+.rounded-md {
+  border-radius: 8px; /* Moderately rounded corners */
+}
+
+/* Large rounding */
+.rounded-lg {
+  border-radius: 16px; /* More pronounced rounding */
+}
+
+/* Fully rounded (circle) */
+.rounded-full {
+  border-radius: 50%; /* Makes the element circular if it's a square */
+}
+
+/* Elliptical rounding */
+.rounded-ellipse {
+  border-radius: 50% 25%; /* Different horizontal and vertical radii */
+}
