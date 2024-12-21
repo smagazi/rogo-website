@@ -17,9 +17,9 @@ export default function Page() {
         We also tapered the prongs so the blocks will catch and interlock even if there is some small positional error.
       </p>
 
-      <img src="/images/block-diagram.png" alt="Block Diagram" className="mx-auto rounded-lg" />
-      <img src="/images/block-cad.png" alt="Block Diagram" className="mx-auto rounded-lg" />
-      <img src="/images/base-cad.png" alt="Block Diagram" className="mx-auto rounded-lg" />
+      <img src="/images/block-diagram.png" alt="Block Diagram" className="mx-auto rounded-lg mb-2" />
+      <img src="/images/block-cad.png" alt="Block Diagram" className="mx-auto rounded-lg mb-2" />
+      <img src="/images/base-cad.png" alt="Block Diagram" className="mx-auto rounded-lg mb-2" />
 
       
 
