@@ -102,7 +102,7 @@ export default function Page() {
           {/* Screenshot 1 */}
           <div className="space-y-2">
             <Image
-              src="/images/block-input.png"
+              src="/images/1x1-w-metadata.png"
               alt="Block input stage"
               width={500}
               height={300}

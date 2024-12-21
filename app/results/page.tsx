@@ -18,7 +18,7 @@ export default function Page() {
         The below picture shows the arm releasing the last block of the 2x1 structure:
       </p>
 
-      <img src="/images/arm-building-2x1.png" alt="Block Diagram" className="mx-auto rounded-lg" />
+      <img src="/images/arm-building-2x1.png" alt="Block Diagram" className="mx-auto rounded-lg mb-8" />
 
 
 
