@@ -1,14 +1,10 @@
+"use client"
 import { BlogPosts } from 'app/components/posts';
 import STLViewer from 'app/components/STLViewer';
 import { StlViewer } from 'react-stl-viewer';
 
-export const metadata = {
-  title: 'Blog',
-  description: 'Read my blog.',
-}
-
 export default function Page() {
-  const stlFileUrl = "/public/STL/Block-v4.stl"; // Update this path as necessary
+  const stlFileUrl = "public/STL/Blockv4.stl"; // Corrected path
 
   return (
     <section>
@@ -29,12 +25,12 @@ export default function Page() {
         </div>
       </div>
 
-      <StlViewer
+      {/* <StlViewer
         style={{ width: '100%', height: '500px' }}
         orbitControls
         shadows
         url={stlFileUrl}
-      />
+      /> */}
 
       <h1 className="font-semibold text-2xl mb-8 mt-8 tracking-tighter">ChatGPT</h1>
       <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Block Position Output</h1>
