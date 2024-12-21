@@ -45,7 +45,7 @@ export default function Page() {
               <a href="https://www.linkedin.com/in/member3" target="_blank" rel="noopener noreferrer">Nihal Boina</a>
             </h3>
             <p>Nihal Boina is an EECS and Business student in the M.E.T. program at UC Berkeley. He specializes in machine learning and cloud-based software development, having led several projects from ideation to execution, reaching thousands of end-users. He is deeply interested in using AI and scalable infrastructure to create impactful digital solutions, from healthcare to consumer tech.</p>
-            <p style={{ marginTop: '5px' }} className="text-lilac">Contributions: CV block detection</p>
+            <p style={{ marginTop: '5px' }} className="text-lilac">Contributions: CV block detection + pipeline</p>
           </div>
         </div>
         {/* Team Member 4 */}
@@ -78,11 +78,10 @@ export default function Page() {
               <a href="https://www.linkedin.com/in/member5" target="_blank" rel="noopener noreferrer">Skyler Chan</a>
             </h3>
             <p>Skyler Chan is an EECS student passionate about robotics for space exploration purposes such as building off-world habitats. He has worked in backend systems validation previously at Tesla (Vehicle Software), and autonomous embedded systems for a space payload (SpaceCAL). Long term he hopes to build a generational space company that enables humanity to become interplanetary.</p>
-            <p style={{ marginTop: '5px' }} className="text-lilac">Contributions:</p>
+            <p style={{ marginTop: '5px' }} className="text-lilac">Contributions: integration, presentation, PID</p>
           </div>
         </div>
       </div>
     </section>
   )
 }
-
