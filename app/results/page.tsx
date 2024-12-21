@@ -8,7 +8,14 @@ export const metadata = {
 export default function Page() {
   return (
     <section>
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">this will act as results & challenges section from the rubric doc</h1>
+      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Results</h1>
+      <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Final Outcomes</h1>
+      <p className='ml-8 mb-8'>
+        
+      </p>
+
+
+
 
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Future Improvements</h1>
       <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Upgrade Camera Setup</h1>
