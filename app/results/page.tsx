@@ -48,7 +48,7 @@ export default function Page() {
       
       <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Ability to Deal with Variety of Block Designs</h1>
       <p className='ml-8 mb-4'>
-        Our system currently accounts for one type/dimension of block (see Figure (INSERT) on the <a href="http://localhost:3000/implementation" className="text-blue-500">implementation page</a>).
+        Our system currently accounts for one type/dimension of block (see Hardware section on the <a href="http://localhost:3000/implementation" className="text-blue-500">implementation page</a>).
       </p>
 
       <p className='ml-8 mb-4'>
