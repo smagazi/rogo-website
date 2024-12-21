@@ -10,9 +10,16 @@ export default function Page() {
     <section>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Results</h1>
       <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Final Outcomes</h1>
-      <p className='ml-8 mb-8'>
-        Our system is able to build a 2x1 pyramid structure, with only tiny <span className='text-lilac'>(millimeters)</span> manual adjustments needing to be made in order for the blocks to placed correctly. 
+      <p className='ml-8 mb-4'>
+        Our system is able to build a 2x1 pyramid structure, with only tiny <span className='text-lilac'>(millimeter magnitude)</span> manual adjustments needing to be made in order for the blocks to placed correctly. 
       </p>
+
+      <p className='ml-8 mb-8'>
+        The below picture shows the arm releasing the last block of the 2x1 structure:
+      </p>
+
+      <img src="/images/arm-building-2x1.png" alt="Block Diagram" className="mx-auto rounded-lg" />
+
 
 
 
@@ -51,6 +58,10 @@ export default function Page() {
 
       <p className='ml-8 mb-4'>
         To accomplish this, we need an algorithm to analyze the hand-drawn drawing and provide the best-fitting CAD model. We would also create an algorithm to deal with CAD model inputs by analyzing the .stl file and outputting a JSON with block coordinates.
+      </p>
+
+      <p className='ml-12 mb-4'>
+        <span className='text-lilac'>Note: Considering how unlikely it is for ChatGPT to provide the user's exact desired structure on the first try when using a hand-drawn picture, it would be best to enable a back and forth conversation between the user and ChatGPT to iterate designs until the user is satisfied!</span>
       </p>
 
       <p className='ml-8 mb-8'>
