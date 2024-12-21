@@ -12,11 +12,14 @@ export default function Page() {
       <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Block Design</h1>
       <p className='ml-8 mb-8'>
         We designed and 3D printed two (2) main components: the block base plate and the block.
-        The blocks interlocking mechanism was similar to Lego's, but optimized and simplified for the robotic arm. 
-        We accomplished an easier interlocking by tapering the prongs.
+        The blocks interlocking mechanism was similar to Lego's, but optimized for the robotic arm.
+        It features side grooves for guiding the gripper to the correct spot.
+        We also tapered the prongs so the blocks will catch and interlock even if there is some small positional error.
       </p>
 
       <img src="/images/block-diagram.png" alt="Block Diagram" className="rounded-full mb-8" />
+      <img src="/images/block-cad.png" alt="Block Diagram" className="rounded-full mb-8" />
+      <img src="/images/base-cad.png" alt="Block Diagram" className="rounded-full mb-8" />
 
       
 
