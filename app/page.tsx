@@ -86,7 +86,7 @@ export default function Page() {
         {/* Main System Diagram */}
         <div className="mb-8">
           <Image
-            src="/images/system-architecture.png"
+            src="/images/Workflow.png"
             alt="System architecture diagram showing the flow from Block to Block Metadata to ChatGPT to GPT Placement"
             width={1200}
             height={400}
