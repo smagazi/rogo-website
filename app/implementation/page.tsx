@@ -1,4 +1,6 @@
-import { BlogPosts } from 'app/components/posts'
+import { BlogPosts } from 'app/components/posts';
+import STLViewer from 'app/components/STLViewer';
+import { StlViewer } from 'react-stl-viewer';
 
 export const metadata = {
   title: 'Blog',
@@ -6,6 +8,8 @@ export const metadata = {
 }
 
 export default function Page() {
+  const stlFileUrl = "/public/STL/Block-v4.stl"; // Update this path as necessary
+
   return (
     <section>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Hardware</h1>
@@ -20,17 +24,18 @@ export default function Page() {
       <div className="flex mx-auto flex-col items-center mb-2" style={{ maxWidth: '500px', position: 'relative' }}>
         <img src="/images/block-diagram.png" alt="Block Diagram" className="rounded-lg mb-2" style={{ width: '100%' }} />
         <div className="flex justify-center" style={{ width: '100%' }}>
-          <img src="/images/block-cad.png" alt="Block Diagram" className="rounded-lg mx-1" style={{ width: '50%' }} />
-          <img src="/images/base-cad.png" alt="Block Diagram" className="rounded-lg mx-1" style={{ width: '50%' }} />
+          <img src="/images/block-cad.png" alt="Block CAD" className="rounded-lg mx-1" style={{ width: '50%' }} />
+          <img src="/images/base-cad.png" alt="Base CAD" className="rounded-lg mx-1" style={{ width: '50%' }} />
         </div>
       </div>
 
-      
+      <StlViewer
+        style={{ width: '100%', height: '500px' }}
+        orbitControls
+        shadows
+        url={stlFileUrl}
+      />
 
-
-
-
-      
       <h1 className="font-semibold text-2xl mb-8 mt-8 tracking-tighter">ChatGPT</h1>
       <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Block Position Output</h1>
       <p className='ml-8 mb-4'>
@@ -45,7 +50,7 @@ export default function Page() {
         Below is an example of the JSON ChatGPT outputs:
       </p>
 
-      <img src="/images/ex_gpt_output.png" alt="Block Diagram" className="mx-auto rounded-lg mb-8" width="500"/>
+      <img src="/images/ex_gpt_output.png" alt="ChatGPT Output" className="mx-auto rounded-lg mb-8" width="500"/>
 
       <p className='ml-8 mb-8'>
       Furthermore, we use a script to render ChatGPT's output JSON into an image:
@@ -53,15 +58,6 @@ export default function Page() {
 
       <img src="/images/2x1-digital.png" alt="2x1 Digital" className="mx-auto rounded-lg mb-8" width="500"/>
 
-
-
-
-      
-
-
-
-
-      
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Computer Vision</h1>
       
       <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Detecting Blocks</h1>
@@ -90,25 +86,12 @@ export default function Page() {
       </p>
       <img src="/images/cv_place_coords.png" alt="Block Diagram" className="mx-auto rounded-lg mb-8" />
 
-
-
-
-      
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">PID/Controls</h1>
       <p className='ml-8 mb-8'>
         We used PID to move to said predicted real-world locations from CV. We used K/gain values that are known to work with the Sawyer arm and allow it to move smoothly and correct its trajectory.
       </p>
 
       <img src="/images/planning_pid_control.png" alt="Block Diagram" className="mx-auto rounded-lg" />
-
-
-
-
-
-
-
-
-      {/* <h1 className="font-semibold text-2xl mb-8 tracking-tighter">this page has majority/all of technial stuff. </h1> */}
 
     </section>
   )
