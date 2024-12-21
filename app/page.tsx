@@ -233,7 +233,7 @@ export default function Page() {
         {/* Optional: Add Design Diagrams */}
 
   
-        <div className="mb-8">
+        {/* <div className="mb-8">
           <Image
             src="/images/design-diagram.png"
             alt="Detailed design diagram showing system components and interactions"
@@ -244,7 +244,7 @@ export default function Page() {
           <p className="text-center text-gray-400 mt-2">
             Detailed system design and component interaction diagram
           </p>
-        </div>
+        </div> */}
       </section>
 
       {/* You'll want to create separate components or sections for: */}

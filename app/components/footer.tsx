@@ -32,6 +32,18 @@ export default function Footer() {
           </a>
         </li>
 
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://docs.google.com/presentation/d/1jnIEagDrXdOpLOgWeU1iDIbPA5Fdv4h1UuWfGbikvKo/edit?usp=sharing"
+          >
+            <ArrowIcon />
+            <p className="text-xl ml-2 h-7">presentation</p>
+          </a>
+        </li>
+
       </ul>
     </footer>
   )

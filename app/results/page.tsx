@@ -18,10 +18,18 @@ export default function Page() {
         The below picture shows the arm releasing the last block of the 2x1 structure:
       </p>
 
-      <img src="/images/arm-building-2x1.png" alt="Block Diagram" className="mx-auto rounded-lg mb-8" />
+      <img src="/images/arm-building-2x1.png" alt="Block Diagram" className="mx-auto rounded-lg mb-8" width="500"/>
 
 
-
+      <p className='ml-8 mb-8'>
+      After our initial testing and tuning was completed, our system was able to accurately detect and pick up blocks successfully <span className='text-lilac'>(without human intervention)</span> 85% of the time.
+      </p>
+      <p className='ml-8 mb-8'>
+      After picking the block up, the block placement portion had a slightly lower success rate at 70% of the time, since it needed to take into account the position of the blocks already placed.
+      </p>
+      <p className='ml-8 mb-8'>
+      The team was happy with this success rate, given our current limitations.
+      </p>
 
 
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Future Improvements</h1>

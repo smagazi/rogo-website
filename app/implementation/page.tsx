@@ -17,9 +17,13 @@ export default function Page() {
         We also tapered the prongs so the blocks will catch and interlock even if there is some small positional error.
       </p>
 
-      <img src="/images/block-diagram.png" alt="Block Diagram" className="mx-auto rounded-lg mb-2" width="500" />
-      <img src="/images/block-cad.png" alt="Block Diagram" className="mx-auto rounded-lg mb-2" width="500" />
-      <img src="/images/base-cad.png" alt="Block Diagram" className="mx-auto rounded-lg mb-2" width="500" />
+      <div className="flex mx-auto flex-col items-center mb-2" style={{ maxWidth: '500px', position: 'relative' }}>
+        <img src="/images/block-diagram.png" alt="Block Diagram" className="rounded-lg mb-2" style={{ width: '100%' }} />
+        <div className="flex justify-center" style={{ width: '100%' }}>
+          <img src="/images/block-cad.png" alt="Block Diagram" className="rounded-lg mx-1" style={{ width: '50%' }} />
+          <img src="/images/base-cad.png" alt="Block Diagram" className="rounded-lg mx-1" style={{ width: '50%' }} />
+        </div>
+      </div>
 
       
 
@@ -27,7 +31,7 @@ export default function Page() {
 
 
       
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">ChatGPT</h1>
+      <h1 className="font-semibold text-2xl mb-8 mt-8 tracking-tighter">ChatGPT</h1>
       <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Block Position Output</h1>
       <p className='ml-8 mb-4'>
         After the user inputs their structure instructions (i.e. "build a tower", "design the Taj Mahal"), ChatGPT takes the constraints into consideration <span className='text-lilac'>(block dimensions, prongs don't add to structure height since they insert into the block above)</span> and outputs coordinates based on those constraints and the user input. 
@@ -41,13 +45,13 @@ export default function Page() {
         Below is an example of the JSON ChatGPT outputs:
       </p>
 
-      <img src="/images/ex_gpt_output.png" alt="Block Diagram" className="rounded-lg mb-8"/>
+      <img src="/images/ex_gpt_output.png" alt="Block Diagram" className="mx-auto rounded-lg mb-8" width="500"/>
 
       <p className='ml-8 mb-8'>
       Furthermore, we use a script to render ChatGPT's output JSON into an image:
       </p>
 
-      <img src="/images/2x1-digital.png" alt="2x1 Digital" className="rounded-lg mb-8"/>
+      <img src="/images/2x1-digital.png" alt="2x1 Digital" className="mx-auto rounded-lg mb-8" width="500"/>
 
 
 
@@ -65,13 +69,13 @@ export default function Page() {
         Using Canny edge detection, we were able to distinguish objects from background, even with the grayscale image that the robot wrist hand camera gave us:
       </p>
 
-      <img src="/images/cv_running.png" alt="Block Diagram" className="mx-auto rounded-lg mb-8" />
+      <img src="/images/cv_running.png" alt="Block Diagram" className="mx-auto rounded-lg mb-8" width="500" />
 
       <p className='ml-8 mb-8'>
         We then used said block center coordinates, and transformed from u,v to real world x,y,z using camera intrinsic properties
       </p>
 
-      <img src="/images/cv_output.png" alt="Block Diagram" className="mx-auto rounded-lg mb-8" />
+      <img src="/images/cv_output.png" alt="Block Diagram" className="mx-auto rounded-lg mb-8"/>
 
       <h1 className="font-semibold text-xl mb-8 tracking-tighter ml-4">Distinguishing Blocks From Baseplate</h1>
       <p className='ml-8 mb-8'>
