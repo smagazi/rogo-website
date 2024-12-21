@@ -15,15 +15,7 @@ export default function Page() {
         
         {/* Demo Video */}
         <div className="text-center">
-          <iframe 
-            width="560" 
-            height="315" 
-            src="https://www.youtube.com/embed/xQhCtnd-jgk?autoplay=1&loop=1&playlist=xQhCtnd-jgk" 
-            frameBorder="0" 
-            allow="autoplay; encrypted-media" 
-            allowFullScreen 
-            className="rounded-lg mx-auto mb-8"
-          ></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HLr-Sg3szzk?si=wadi9DC2onGzHHet" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         {/* Project Goals */}

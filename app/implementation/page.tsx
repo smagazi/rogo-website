@@ -16,7 +16,7 @@ export default function Page() {
         We accomplished an easier interlocking by tapering the prongs.
       </p>
 
-      <img src="../images/block-diagram.png" alt="Block Diagram" className="rounded-full mb-8" />
+      <img src="/images/block-diagram.png" alt="Block Diagram" className="rounded-full mb-8" />
 
       
 
