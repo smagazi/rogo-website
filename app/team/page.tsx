@@ -27,11 +27,17 @@ export default function Page() {
         </div>
         {/* Team Member 3 */}
         <div className="team-member" style={{ marginBottom: '20px' }}>
-          <img src="pfps/nihal.png" alt="Member 3" className="rounded-image" />
-          <h3 className="text-2xl">            <a href="https://www.linkedin.com/in/member3" target="_blank" rel="noopener noreferrer">Nihal Boina</a>
-          </h3>
-          <p>Nihal Boina is an EECS and Business student in the M.E.T. program at UC Berkeley. He specializes in machine learning and cloud-based software development, having led several projects from ideation to execution, reaching thousands of end-users. He is deeply interested in using AI and scalable infrastructure to create impactful digital solutions, from healthcare to consumer tech.</p>
-        </div>
+  <img 
+    src="pfps/nihal.png" 
+    alt="Member 3" 
+    className="rounded-image" 
+    style={{ width: '100px', height: '100px' }} 
+  />
+  <h3 className="text-2xl">            
+    <a href="https://www.linkedin.com/in/member3" target="_blank" rel="noopener noreferrer">Nihal Boina</a>
+  </h3>
+  <p>Nihal Boina is an EECS and Business student in the M.E.T. program at UC Berkeley. He specializes in machine learning and cloud-based software development, having led several projects from ideation to execution, reaching thousands of end-users. He is deeply interested in using AI and scalable infrastructure to create impactful digital solutions, from healthcare to consumer tech.</p>
+</div>
         {/* Team Member 4 */}
         <div className="team-member" style={{ marginBottom: '20px' }}>
           <img src="pfps/parth.jpeg" alt="Member 6" className="rounded-image" />

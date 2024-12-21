@@ -164,6 +164,7 @@ export default function Page() {
         {/* Design Criteria */}
         <div className="mb-8">
           <h3 className="text-xl font-medium mb-3">Success Criteria & Testing Approach</h3>
+          <img src="images/projectgoals.png" alt="Member 1" className="rounded-image" />
           <p className="text-lg mb-4">
             Our project success is measured across three parallel testing areas:
           </p>
