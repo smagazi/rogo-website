@@ -114,7 +114,7 @@ export default function Page() {
           </div>
 
           {/* Screenshot 2 */}
-          <div className="space-y-2">
+          {/* <div className="space-y-2">
             <Image
               src="/images/insert.png"
               alt="GPT processing stage"
@@ -125,7 +125,7 @@ export default function Page() {
             <p className="text-center text-gray-400">
               ChatGPT processing and structure planning
             </p>
-          </div>
+          </div> */}
 
           {/* Screenshot 3 */}
           <div className="space-y-2">
