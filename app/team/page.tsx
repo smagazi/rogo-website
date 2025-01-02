@@ -69,7 +69,7 @@ export default function Page() {
         </div>
         {/* Team Member 5 */}
         <div className="team-member" style={{ marginBottom: '20px', display: 'flex', alignItems: 'center' }}>
-          <img src="pfps/sara.jpeg" alt="Member 4" className="rounded-lg" style={{ width: '120px', height: '120px', marginRight: '15px' }} />
+          <img src="pfps/sara.jpg" alt="Member 4" className="rounded-lg" style={{ width: '120px', height: '120px', marginRight: '15px' }} />
           <div>
             <h3 className="text-2xl" style={{ color: 'white' }}>            
               <a href="https://www.linkedin.com/in/sara-magaziotis-ginori/" target="_blank" rel="noopener noreferrer">
