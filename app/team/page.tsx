@@ -77,7 +77,7 @@ export default function Page() {
               </a>
             </h3>
             <p>Sara Magaziotis-Ginori is an EECS major focused on aviation/space technologies. She has experience developing flight software and collision avoidance systems at Evitado Technologies. She has also developed the CV and path planning algorithms for an autonomous rover competing in the University Rover Challenge.</p>
-            <p style={{ marginTop: '5px' }} className="text-lilac">Contributions: CV, controls, integration, website</p>
+            <p style={{ marginTop: '5px' }} className="text-lilac">Contributions: CV, controls, integration, website </p>
           </div>
         </div>
         {/* Team Member 6 */}
