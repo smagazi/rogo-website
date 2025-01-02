@@ -90,7 +90,7 @@ export default function Page() {
               </a>
             </h3>
             <p>Skyler Chan is an EECS student passionate about robotics for space exploration purposes such as building off-world habitats. He has worked in backend systems validation previously at Tesla (Vehicle Software), and autonomous embedded systems for a space payload (SpaceCAL). Long term he hopes to build a generational space company that enables humanity to become interplanetary.</p>
-            <p style={{ marginTop: '5px' }} className="text-lilac">Contributions: integration, presentation, PID</p>
+            <p style={{ marginTop: '5px' }} className="text-lilac">Contributions: integration, PID, presentation</p>
           </div>
         </div>
       </div>
